@@ -7,7 +7,7 @@ namespace Task9
         static void Main(string[] args)
         {
             Console.Write("Введите строку: ");
-            String a = Console.ReadLine();
+            string a = Console.ReadLine();
             var sb = new StringBuilder();
             sb.Append(a);
             Console.Write("Введите символ-разделитель: ");

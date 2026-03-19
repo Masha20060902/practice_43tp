@@ -7,10 +7,10 @@ namespace Task7
         static void Main(string[] args)
         {
             Console.WriteLine("Введите строку: ");
-            String str = Console.ReadLine();
+            string str = Console.ReadLine();
             var patern = @"\d";
             var r = new Regex(patern);
-            String new_str = r.Replace(str, "");
+            string new_str = r.Replace(str, "");
             Console.WriteLine($"Строка без цифр{new_str}");
 
         }
