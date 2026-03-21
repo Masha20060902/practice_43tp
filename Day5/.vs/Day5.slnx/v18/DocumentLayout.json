@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64CB7E51-348D-4099-B77A-CCDF38056E60}|Task4\\Task4.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day5\\task4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64CB7E51-348D-4099-B77A-CCDF38056E60}|Task4\\Task4.csproj|solutionrelative:task4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64CB7E51-348D-4099-B77A-CCDF38056E60}|Task4\\Task4.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day5\\task4\\smartassistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64CB7E51-348D-4099-B77A-CCDF38056E60}|Task4\\Task4.csproj|solutionrelative:task4\\smartassistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SmartAssistant.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day5\\Task4\\SmartAssistant.cs",
+              "RelativeDocumentMoniker": "Task4\\SmartAssistant.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day5\\Task4\\SmartAssistant.cs",
+              "RelativeToolTip": "Task4\\SmartAssistant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T18:03:41.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day5\\Task4\\Program.cs",
+              "RelativeDocumentMoniker": "Task4\\Program.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day5\\Task4\\Program.cs",
+              "RelativeToolTip": "Task4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T18:03:40.533Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
