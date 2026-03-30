@@ -1,0 +1,51 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Task" xmlns:Collections="clr-namespace:System.Collections;assembly=System.Runtime" mc:Ignorable="d" x:Class="Task.MainWindow" Width="800" Title="Контроль версий" Height="450" WindowStartupLocation="CenterScreen"
+>
+    <Grid
+>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="173*"/>
+            <ColumnDefinition Width="627*"/>
+        </Grid.ColumnDefinitions>
+        <TreeView x:Name="DocumentsTreeView" Width="200" HorizontalAlignment="Left" Foreground="White" Background="#FFF0F0F0" SelectedItemChanged="DocumentsTreeView_SelectedItemChanged" Grid.ColumnSpan="2"
+>
+            <TreeView.BorderBrush
+>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0"
+>
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </TreeView.BorderBrush>
+            <TreeViewItem Header="Папка_1">
+                <TreeViewItem Header="Документ_1"></TreeViewItem>
+            </TreeViewItem>
+        </TreeView>
+        <DataGrid x:Name="DataGrid" 
+                  Width="585" 
+                  Margin="32,1,0,0" 
+                  VerticalAlignment="Top" 
+                  AutomationProperties.IsColumnHeader="True" 
+                  Height="146" 
+                  HorizontalAlignment="Left" 
+                  Foreground="#FF120B0B" 
+                  BorderBrush="White" 
+                  AutoGenerateColumns="False" 
+                  Grid.Column="1" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Номер версии" Binding="{Binding VersionNumber}" Width="150" />
+                <DataGridTextColumn Header="Дата" Binding="{Binding Date}" Width="160"/>
+                <DataGridTextColumn Header="Автор" Binding="{Binding Author}" Width="300"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="AddVersion" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="130" Height="33" Margin="0,0,376,37" Content="Добавить версию" Click="AddVersion_Click" Grid.Column="1" Foreground="#FF1A1A1A" BorderBrush="White"/>
+        <StackPanel Grid.Column="1" Margin="32,152,287,107" Background="#FFDDDDDD">
+            <Label Content="Номер версии" Width="116" HorizontalAlignment="Center"/>
+            <TextBox x:Name="Version" TextWrapping="Wrap" Text="" Width="120" Height="24" HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Center" Panel.ZIndex="-1"/>
+            <Label Content="Дата" Width="108" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <TextBox x:Name="Date" TextWrapping="Wrap" Text="" Width="120" Height="24" HorizontalScrollBarVisibility="Auto" Panel.ZIndex="-1" HorizontalAlignment="Center"/>
+            <Label Content="Автор" Width="108" HorizontalAlignment="Center"/>
+            <TextBox x:Name="Author" TextWrapping="Wrap" Text="" Width="120" Height="24" HorizontalScrollBarVisibility="Auto" Panel.ZIndex="-1" HorizontalAlignment="Center"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
