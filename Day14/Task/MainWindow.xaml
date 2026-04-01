@@ -1,0 +1,92 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Task" xmlns:Collections="clr-namespace:System.Collections;assembly=System.Runtime" mc:Ignorable="d" x:Class="Task.MainWindow" Width="800" Title="Контроль версий" Height="450" WindowStartupLocation="CenterScreen"
+>
+    <Window.InputBindings>
+        <KeyBinding Key="N"
+                Modifiers="Control"
+                Command="ApplicationCommands.New" />
+        <KeyBinding Key="D"
+                Modifiers="Control"
+                Command="ApplicationCommands.Delete" />
+        <KeyBinding Key="H"
+                Modifiers="Control"
+                Command="ApplicationCommands.Paste" />
+    </Window.InputBindings>
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.New"
+                    Executed="AddVersionDoc_Click" />
+        <CommandBinding Command="ApplicationCommands.Delete"
+                    Executed="DeleteVersion_Click" />
+        <CommandBinding Command="ApplicationCommands.Paste"
+                    Executed="ViewHistory_Click" />
+    </Window.CommandBindings>
+
+    <Grid
+>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="180*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="619*"/>
+        </Grid.ColumnDefinitions>
+        <TreeView x:Name="DocumentsTreeView" 
+                  Foreground="White" 
+                  Background="#FFE3E3E3" 
+                  SelectedItemChanged="DocumentsTreeView_SelectedItemChanged" 
+                  Grid.ColumnSpan="3" 
+                  Margin="0,24,0,0" 
+                  ItemsSource="{Binding Documents}">
+            <TreeView.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </TreeView.BorderBrush>
+            <TreeView.ItemTemplate>
+                <DataTemplate>
+                    <TextBox Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                 IsReadOnly="False"
+                 IsHitTestVisible="False" />
+                </DataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+        <DataGrid 
+                  x:Name="DataGrid" 
+                  Margin="5,26,0,1" 
+                  AutomationProperties.IsColumnHeader="True" 
+                  Foreground="#FF484545" 
+                  AutoGenerateColumns="False" 
+                  Grid.Column="3" 
+                  BorderBrush="White" 
+                  Background="#FFE3E3E3" 
+                  ScrollViewer.CanContentScroll="True" >
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Номер версии" Binding="{Binding VersionNumber, Mode=OneWay}" Width="150" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Дата" Binding="{Binding Date}" Width="160"/>
+                <DataGridTextColumn Header="Автор" Binding="{Binding Author}" Width="300" />
+            </DataGrid.Columns>
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical" Margin="0" Background="LightBlue">
+                        <TextBlock Background="LightCyan">Версия: <Run Text="{Binding VersionNumber}"></Run></TextBlock>
+                        <TextBlock>Дата: <Run Text="{Binding Date}"></Run></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        </DataGrid>
+        <Menu Margin="1,0,0,0" Grid.ColumnSpan="4" IsEnabled="True" Height="18" VerticalAlignment="Top" >
+            <MenuItem Header="Файл">
+                <MenuItem x:Name="AddVersionDoc" Header="Добавить версию" Click="AddVersionDoc_Click" InputGestureText="Ctrl+N"></MenuItem>
+                <MenuItem x:Name="DeleteVersion" Header="Удалить версию" InputGestureText="Ctrl+D" Click="DeleteVersion_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Документы">
+                <MenuItem x:Name="AddDoc" Header="Добавить документ" Click="AddDoc_Click"></MenuItem>
+                <MenuItem x:Name="ViewHistory" Header="Просмотреть историю" InputGestureText="Ctrl+H" Click="ViewHistory_Click"/>
+            </MenuItem>
+            <MenuItem Header="Версии"></MenuItem>
+            <MenuItem Header="Настройки"></MenuItem>
+        </Menu>
+
+    </Grid>
+
+</Window>
