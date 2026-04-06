@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB296868-A3EB-25DC-7E2A-194AAA2F541C}|Task\\Task.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day15\\task\\versioncontrolviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB296868-A3EB-25DC-7E2A-194AAA2F541C}|Task\\Task.csproj|solutionrelative:task\\versioncontrolviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB296868-A3EB-25DC-7E2A-194AAA2F541C}|Task\\Task.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day15\\task\\versionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB296868-A3EB-25DC-7E2A-194AAA2F541C}|Task\\Task.csproj|solutionrelative:task\\versionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB296868-A3EB-25DC-7E2A-194AAA2F541C}|Task\\Task.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day15\\task\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB296868-A3EB-25DC-7E2A-194AAA2F541C}|Task\\Task.csproj|solutionrelative:task\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB296868-A3EB-25DC-7E2A-194AAA2F541C}|Task\\Task.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day15\\task\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB296868-A3EB-25DC-7E2A-194AAA2F541C}|Task\\Task.csproj|solutionrelative:task\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB296868-A3EB-25DC-7E2A-194AAA2F541C}|Task\\Task.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day15\\task\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB296868-A3EB-25DC-7E2A-194AAA2F541C}|Task\\Task.csproj|solutionrelative:task\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB296868-A3EB-25DC-7E2A-194AAA2F541C}|Task\\Task.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day15\\task\\addversiondocument.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB296868-A3EB-25DC-7E2A-194AAA2F541C}|Task\\Task.csproj|solutionrelative:task\\addversiondocument.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB296868-A3EB-25DC-7E2A-194AAA2F541C}|Task\\Task.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day15\\task\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB296868-A3EB-25DC-7E2A-194AAA2F541C}|Task\\Task.csproj|solutionrelative:task\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 419,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VersionService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\Task\\VersionService.cs",
+              "RelativeDocumentMoniker": "Task\\VersionService.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\Task\\VersionService.cs",
+              "RelativeToolTip": "Task\\VersionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T06:18:36.561Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VersionControlViewModel .cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\Task\\VersionControlViewModel .cs",
+              "RelativeDocumentMoniker": "Task\\VersionControlViewModel .cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\Task\\VersionControlViewModel .cs",
+              "RelativeToolTip": "Task\\VersionControlViewModel .cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACwAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:09:01.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\Task\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Task\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\Task\\RelayCommand.cs",
+              "RelativeToolTip": "Task\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:10:17.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\Task\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Task\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\Task\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Task\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwCwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:11:15.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddVersionDocument.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\Task\\AddVersionDocument.xaml.cs",
+              "RelativeDocumentMoniker": "Task\\AddVersionDocument.xaml.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\Task\\AddVersionDocument.xaml.cs",
+              "RelativeToolTip": "Task\\AddVersionDocument.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:07:27.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\Task\\Document.cs",
+              "RelativeDocumentMoniker": "Task\\Document.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\Task\\Document.cs",
+              "RelativeToolTip": "Task\\Document.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T07:58:04.768Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 165,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\Task\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Task\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day15\\Task\\MainWindow.xaml",
+              "RelativeToolTip": "Task\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T08:27:43.629Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
