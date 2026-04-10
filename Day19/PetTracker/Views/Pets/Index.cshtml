@@ -1,0 +1,28 @@
+﻿@model List<PetTracker.Models.Pet>
+
+<h2>Список домашних животных</h2>
+
+<p>
+    <a asp-controller="Pets" asp-action="Create">Добавить питомца</a>
+</p>
+
+<table class="table">
+    <tr>
+        <th>Имя</th>
+        <th>Тип</th>
+        <th>Дата рождения</th>
+        <th></th>
+    </tr>
+
+    @foreach (var pet in Model)
+    {
+        <tr>
+            <td>@pet.Name</td>
+            <td>@pet.Type</td>
+            <td>@pet.Birthday.ToShortDateString()</td>
+            <td>
+                <a asp-controller="Pets" asp-action="Age" asp-route-id="@pet.Id">Возраст</a>
+            </td>
+        </tr>
+    }
+</table>
