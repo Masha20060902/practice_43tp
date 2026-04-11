@@ -1,0 +1,27 @@
+﻿@model IEnumerable<PetTracker.Models.PetViewModel>
+
+<h2>Список домашних животных</h2>
+
+<form method="get">
+    <label>Фильтр по типу:</label>
+    <input type="text" name="type" value="@ViewBag.Type" />
+    <button type="submit">Фильтровать</button>
+</form>
+<p>
+    <a asp-action="Create">Добавить питомца</a>
+</p>
+<table class="table">
+    <tr>
+        <th>Кличка</th>
+        <th>Тип</th>
+        <th>Дата рождения</th>
+    </tr>
+    @foreach (var pet in Model)
+    {
+        <tr>
+            <td>@pet.Name</td>
+            <td>@pet.Type</td>
+            <td>@pet.Birthday.ToShortDateString()</td>
+        </tr>
+    }
+</table>

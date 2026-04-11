@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day19\\pettracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|solutionrelative:pettracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day19\\pettracker\\service\\ipetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|solutionrelative:pettracker\\service\\ipetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day19\\pettracker\\service\\petservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|solutionrelative:pettracker\\service\\petservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day19\\pettracker\\models\\petviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|solutionrelative:pettracker\\models\\petviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day19\\pettracker\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|solutionrelative:pettracker\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day19\\pettracker\\models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|solutionrelative:pettracker\\models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day19\\pettracker\\views\\pets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|solutionrelative:pettracker\\views\\pets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day19\\pettracker\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|solutionrelative:pettracker\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day19\\pettracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|solutionrelative:pettracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 118,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Views\\Pets\\Index.cshtml",
+              "RelativeDocumentMoniker": "PetTracker\\Views\\Pets\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Views\\Pets\\Index.cshtml",
+              "RelativeToolTip": "PetTracker\\Views\\Pets\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T13:09:55.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PetService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Service\\PetService.cs",
+              "RelativeDocumentMoniker": "PetTracker\\Service\\PetService.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Service\\PetService.cs",
+              "RelativeToolTip": "PetTracker\\Service\\PetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T13:16:02.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPetService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Service\\IPetService.cs",
+              "RelativeDocumentMoniker": "PetTracker\\Service\\IPetService.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Service\\IPetService.cs",
+              "RelativeToolTip": "PetTracker\\Service\\IPetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T13:15:16.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PetViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Models\\PetViewModel.cs",
+              "RelativeDocumentMoniker": "PetTracker\\Models\\PetViewModel.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Models\\PetViewModel.cs",
+              "RelativeToolTip": "PetTracker\\Models\\PetViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T13:12:12.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pet.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Models\\Pet.cs",
+              "RelativeDocumentMoniker": "PetTracker\\Models\\Pet.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Models\\Pet.cs",
+              "RelativeToolTip": "PetTracker\\Models\\Pet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T13:08:52.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PetsController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Controllers\\PetsController.cs",
+              "RelativeDocumentMoniker": "PetTracker\\Controllers\\PetsController.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Controllers\\PetsController.cs",
+              "RelativeToolTip": "PetTracker\\Controllers\\PetsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T13:08:50.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Views\\Pets\\Create.cshtml",
+              "RelativeDocumentMoniker": "PetTracker\\Views\\Pets\\Create.cshtml",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Views\\Pets\\Create.cshtml",
+              "RelativeToolTip": "PetTracker\\Views\\Pets\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T13:07:17.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PetTracker\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PetTracker\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T13:00:36.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Program.cs",
+              "RelativeDocumentMoniker": "PetTracker\\Program.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day19\\PetTracker\\Program.cs",
+              "RelativeToolTip": "PetTracker\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T12:42:42.388Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
