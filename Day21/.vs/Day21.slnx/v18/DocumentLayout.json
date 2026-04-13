@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day21\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|c:\\users\\\u043C\u0430\u0448\u0430\\desktop\\\u0443\u0447\u0435\u0431\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\day21\\pettracker\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64922E6A-38E5-CF7C-6DE3-8EEE3209BF3C}|PetTracker\\PetTracker.csproj|solutionrelative:pettracker\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 118,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PetsController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day21\\PetTracker\\Controllers\\PetsController.cs",
+              "RelativeDocumentMoniker": "PetTracker\\Controllers\\PetsController.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\\u0423\u0447\u0435\u0431\u0430\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\Day21\\PetTracker\\Controllers\\PetsController.cs",
+              "RelativeToolTip": "PetTracker\\Controllers\\PetsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T13:08:50.654Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

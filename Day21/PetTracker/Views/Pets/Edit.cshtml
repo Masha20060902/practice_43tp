@@ -1,0 +1,32 @@
+﻿@model PetTracker.Models.PetViewModel
+
+<h2>Изменить данные питомца</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Species"></label>
+        <input asp-for="Species" />
+        <span asp-validation-for="Species" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="BirthDate"></label>
+        <input asp-for="BirthDate" type="date" />
+        <span asp-validation-for="BirthDate" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Notes"></label>
+        <textarea asp-for="Notes"></textarea>
+    </div>
+
+    <button type="submit">Сохранить</button>
+</form>

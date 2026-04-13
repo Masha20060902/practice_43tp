@@ -1,0 +1,12 @@
+﻿@{
+    var pet = (PetTracker.Models.PetViewModel)ViewBag.Pet;
+    int age = (int)ViewBag.Age;
+}
+
+<h2>Возраст питомца</h2>
+
+<p>@pet.Name (@pet.Species) — @age лет</p>
+
+<p>
+    <a asp-controller="Pets" asp-action="Index">Назад к списку</a>
+</p>

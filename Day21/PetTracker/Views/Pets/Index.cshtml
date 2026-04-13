@@ -1,0 +1,45 @@
+﻿@model IEnumerable<PetTracker.Models.PetViewModel>
+
+<h2>Список домашних животных</h2>
+
+<form method="get">
+    <label>Фильтр по виду:</label>
+    <input type="text" name="species" value="@ViewBag.Species" />
+    <button type="submit">Фильтровать</button>
+</form>
+
+<p>
+    <a asp-action="Create">Добавить питомца</a>
+</p>
+
+<table class="table">
+    <tr>
+        <th>Кличка</th>
+        <th>Вид</th>
+        <th>Дата рождения</th>
+        <th>Возраст</th>
+        <th>Описание</th>
+        <th></th>
+    </tr>
+    @foreach (var pet in Model)
+    {
+        var age = DateTime.Today.Year - pet.BirthDate.Year;
+        if (pet.BirthDate.Date > DateTime.Today.AddYears(-age))
+        {
+            age--;
+        }
+
+        <tr>
+            <td>@pet.Name</td>
+            <td>@pet.Species</td>
+            <td>@pet.BirthDate.ToShortDateString()</td>
+            <td>@age</td>
+            <td>@pet.Notes</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@pet.Id">Изменить</a> |
+                <a asp-action="Delete" asp-route-id="@pet.Id">Удалить</a> |
+                <a asp-action="Age" asp-route-id="@pet.Id">Возраст</a>
+            </td>
+        </tr>
+    }
+</table>
