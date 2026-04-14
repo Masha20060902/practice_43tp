@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using PetTracker.DbPets;
 using PetTracker.Service;
 namespace PetTracker
 {
@@ -7,7 +9,10 @@ namespace PetTracker
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllersWithViews();
-            builder.Services.AddSingleton<IPetService, PetService>();
+            builder.Services.AddDbContext<AppDbContext>(options =>
+                options.UseSqlServer(
+                    builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddScoped<IPetService, PetService>();
             var app = builder.Build();
 
             if (!app.Environment.IsDevelopment())

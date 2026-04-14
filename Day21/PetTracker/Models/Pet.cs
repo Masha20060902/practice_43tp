@@ -1,11 +1,17 @@
-﻿namespace PetTracker.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace PetTracker.Models
 {
     public class Pet
     {
         public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
+        [Required]
         public string Species { get; set; }
-        public DateTime Birthday { get; set; }
+        [Required]
+        [DataType(DataType.Date)]
+        public DateTime BirthDate { get; set; }
         public string? Notes { get; set; }
     }
 }

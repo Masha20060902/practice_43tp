@@ -1,48 +1,53 @@
-﻿using PetTracker.Models;
+﻿using PetTracker.DbPets;
+using PetTracker.Models;
 
 namespace PetTracker.Service
 {
     public class PetService : IPetService
     {
-        private static readonly List<PetViewModel> _pets = new();
-        private static int _nextId = 1;
-        public void Add(PetViewModel pet)
+
+        private readonly AppDbContext _context;
+
+        public PetService(AppDbContext context)
         {
-            pet.Id = _nextId++;
-            _pets.Add(pet);
+            _context = context;
+        }
+        public void Add(Pet pet)
+        {
+            _context.Pets.Add(pet);
+            _context.SaveChanges();
         }
 
         public void Delete(int id)
         {
-            var pet = GetById(id);
-            if (pet != null)
-                _pets.Remove(pet);
+            var pet = _context.Pets.Find(id);
+            if (pet == null) return;
+
+            _context.Pets.Remove(pet);
+            _context.SaveChanges();
         }
 
-        public IEnumerable<PetViewModel> GetAll()
+        public IEnumerable<Pet> GetAll()
         {
-            return _pets;
+            return _context.Pets.ToList();
         }
 
-        public PetViewModel? GetById(int id)
+        public Pet? GetById(int id)
         {
-            return _pets.FirstOrDefault(p => p.Id == id);
+            return _context.Pets.Find(id);
         }
 
-        public IEnumerable<PetViewModel> GetBySpecies(string species)
+        public IEnumerable<Pet> GetBySpecies(string species)
         {
-            return _pets.Where(p => p.Species == species);
-        } 
+            return _context.Pets
+                           .Where(p => p.Species == species)
+                           .ToList();
+        }
 
-        public void Update(PetViewModel pet)
+        public void Update(Pet pet)
         {
-            var existing = GetById(pet.Id);
-            if (existing == null) return;
-
-            existing.Name = pet.Name;
-            existing.Species = pet.Species;
-            existing.BirthDate = pet.BirthDate;
-            existing.Notes = pet.Notes;
+            _context.Pets.Update(pet);
+            _context.SaveChanges();
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PetTracker.DbPets;
 using PetTracker.Models;
 using PetTracker.Service;
 
@@ -7,11 +8,13 @@ namespace PetTracker.Controllers
     public class PetsController : Controller
     {
         private readonly IPetService _petService;
-
-        public PetsController(IPetService petService)
+        private readonly AppDbContext _context;
+        public PetsController(IPetService petService, AppDbContext context)
         {
             _petService = petService;
+            _context = context;
         }
+
         public IActionResult Index(string? species)
         {
             var pets = string.IsNullOrEmpty(species)
@@ -24,10 +27,10 @@ namespace PetTracker.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            return View(new PetViewModel());
+            return View(new Pet());
         }
         [HttpPost]
-        public IActionResult Create(PetViewModel pet)
+        public IActionResult Create(Pet pet)
         {
             if (!ModelState.IsValid)
                 return View(pet);
@@ -45,7 +48,7 @@ namespace PetTracker.Controllers
             return View(pet);
         }
         [HttpPost]
-        public IActionResult Edit(PetViewModel pet)
+        public IActionResult Edit(Pet pet)
         {
             if (!ModelState.IsValid)
                 return View(pet);
