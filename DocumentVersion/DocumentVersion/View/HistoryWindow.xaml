@@ -1,0 +1,23 @@
+﻿<Window x:Class="DocumentVersion.View.HistoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DocumentVersion"
+        mc:Ignorable="d"
+        Title="История изменений" 
+        Height="450" 
+        Width="800" 
+        WindowStartupLocation="CenterScreen">
+    <DataGrid ItemsSource="{Binding Documents}"
+              x:Name="HistoryGrid"
+              Style="{DynamicResource AppDataGridStyle}"
+              AutoGenerateColumns="False"
+              IsReadOnly="True">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="Версия" Binding="{Binding VersionNumber}" Width="80" />
+            <DataGridTextColumn Header="Дата" Binding="{Binding CreatedAt}" Width="150" />
+            <DataGridTextColumn Header="Автор" Binding="{Binding Author}" Width="200" />
+        </DataGrid.Columns>
+    </DataGrid>
+</Window>

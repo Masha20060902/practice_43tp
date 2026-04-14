@@ -1,0 +1,42 @@
+﻿<Window x:Class="DocumentVersion.View.Chat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DocumentVersion"
+        mc:Ignorable="d"
+        Title="Чат" 
+        Height="470" 
+        Width="800" 
+        WindowStartupLocation="CenterScreen"
+        Background="{DynamicResource AppBackgroundBrush}"
+        Foreground="{DynamicResource AppForegroundBrush}">
+    <Grid Margin="67,0,67,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="275"/>
+            <RowDefinition Height="92"/>
+            <RowDefinition Height="61"/>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Label Content="Чат сотрудников" FontWeight="Medium"/>
+            <ListBox ItemsSource="{Binding ChatMessage}" Height="246" Style="{DynamicResource AppListBoxStyle}"/>
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <StackPanel>
+                <Label Content="Сообщение" FontWeight="Medium"/>
+                <TextBox Text="{Binding MessageText,UpdateSourceTrigger=PropertyChanged}" Height="61" Style="{DynamicResource AppTextBoxStyle}"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="117"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="2" Orientation="Horizontal">
+                <Button Command="{Binding SendMessageCommand}" Width="116" Height="28" Style="{DynamicResource AppButtonStyle}">
+                    <ContentPresenter Content="Отправить"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
